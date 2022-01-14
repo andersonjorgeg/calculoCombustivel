@@ -1,0 +1,82 @@
+main {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+label {
+  font-weight: bold;
+}
+
+section, div {
+  padding-bottom: 10px;
+}
+
+.campoTexto {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border-color: #D9EDF7;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  background-color: #D9EDF7;
+  color: #286090;
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.botao {
+  background-color: #286090;
+  color: #FFFEFA;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100px;
+  display: block;
+  cursor: pointer;
+}
+
+.painel {
+  border-width: thin;
+  border-style: solid;
+  border-color: #D9EDF7;
+  flex-grow: 1;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+.conteudo-painel {
+  padding: 15px;
+}
+
+.sucesso {
+  padding: 10px;
+  border-collapse: collapse;
+  border-color: #DFF0D8;
+  background-color: #DFF0D8;
+  color: #3C763D;
+}
+
+.error {
+  padding: 10px;
+  flex-grow: 1;
+  border-collapse: collapse;
+  border-color: #F2DEDE;
+	background-color: #F2DEDE;
+	color: #A94442;
+  font-weight: bold;
+}
+
+li {
+  padding: 5px;
+}
